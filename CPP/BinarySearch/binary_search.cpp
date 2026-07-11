@@ -13,6 +13,7 @@ int main(){
     while(start <= end){
         int mid = start + (end - start) / 2;
 
+        //for first occurence
         if(arr[mid] == target){
             cout << "Element found at index " << mid << endl;
             return 0;
