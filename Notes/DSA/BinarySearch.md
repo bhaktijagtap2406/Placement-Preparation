@@ -27,3 +27,4 @@ Binary Search is a searching algorithm that works on a sorted array by repeatedl
 ## Space Complexity
 
 - O(1) (Iterative)
+
