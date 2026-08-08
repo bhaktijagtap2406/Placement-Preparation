@@ -39,3 +39,4 @@ SELECT
     Salary,
     NTILE(3) OVER(ORDER BY Salary) AS GroupNo
 FROM Employees;
+
