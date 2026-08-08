@@ -1,4 +1,4 @@
-# import pandas as pd
+import pandas as pd
 
 df = pd.DataFrame({
     "Name": ["A", "B", "C"],
@@ -19,5 +19,3 @@ df[(df["Age"] > 20) & (df["Salary"] > 45000)]
 df["Salary"].isnull()
 
 df["Salary"].fillna(0)
-
-df.dropna()
