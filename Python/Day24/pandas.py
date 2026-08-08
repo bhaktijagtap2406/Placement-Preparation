@@ -1,4 +1,4 @@
-import pandas as pd
+# import pandas as pd
 
 df = pd.DataFrame({
     "Name": ["A", "B", "C"],
