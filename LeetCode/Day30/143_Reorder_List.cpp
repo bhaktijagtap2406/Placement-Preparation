@@ -13,6 +13,10 @@ struct ListNode {
 class Solution {
 public:
     void reorderList(ListNode* head) {
+        if(head == NULL || head->next == NULL){
+            return;
+        }
+        
         ListNode* slow = head;
         ListNode* fast = head;
 
